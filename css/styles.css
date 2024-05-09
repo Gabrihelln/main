@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input, select, textarea {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #FFF;
+    height: 70px;
+}
+
+header #navbar {
+    display: flex;
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header #navbar .nav-brand {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+header #navbar .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;   
+}
+
+header #navbar .nav-list .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+}
+header #navbar .nav-list .nav-item a:hover {
+    color: #888;
+    transition: color 0.2s;
+}
+
+/* Sessão Banner */
+
+main {
+    margin-top: 6rem;
+}
+
+main #banner {
+    display: flex;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+main #banner .banner .banner-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+main #banner .banner .banner-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+main #banner .banner .banner-btn {
+    background-color: #00abcc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 8px 24px;
+    border: none;
+}
+
+main #banner .banner-img {
+    border-radius: 50%;
+    box-shadow: 1px 0 0.8em #000;;
+}
