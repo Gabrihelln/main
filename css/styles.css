@@ -58,7 +58,7 @@ main {
     margin-top: 6rem;
 }
 
-main #banner {
+main #banner, #experiencia {
     display: flex;
     max-width: 1200px;
     padding: 0 2rem;
@@ -95,3 +95,6 @@ main #banner .banner-img {
     border-radius: 50%;
     box-shadow: 1px 0 0.8em #000;;
 }
+
+/* Sessão Experiência */
+
